@@ -23,9 +23,8 @@ Why?
 How?
 - 2 instructed sessions per week, where I will show you new things
 - projects and milestones that have to be hit by each of you independently
-- 
 
 What you need?
-- VSCode
-- GitHub acc
-- git bash (if you're on windows)
+- [VSCode](https://code.visualstudio.com/download)
+- GitHub account
+- [Git Bash](https://git-scm.com/downloads) (if you're on windows)
