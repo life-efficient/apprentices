@@ -21,4 +21,4 @@ Spec
     - button to add to cart
 
 Extra
-- animate the background color when someone hovers over the button to add a product to cart
+- animate the background color of the "add to cart" button on each product when someone hovers over it
