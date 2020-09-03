@@ -15,20 +15,20 @@ function myfunc(ar1, arg2) {
 }
 
 class Laptop {
-   constructor(model, num_cpus) {
-       console.log('my model is: ', model)
+    constructor(model, num_cpus) {
+        console.log('my model is: ', model)
         this.num_cpus = num_cpus
-   } 
+    } 
 
-   turn_on() {
-       console.log('i am turned on')
-       console.log('and i have ', this.num_cpus, 'cpus')
-       this.save_file()
-   }
+    turn_on() {
+        console.log('i am turned on')
+        console.log('and i have ', this.num_cpus, 'cpus')
+        this.save_file()
+    }
 
-   save_file() {
-       console.log('saved')
-   }
+    save_file() {
+        console.log('saved')
+    }
 }
 
 my_laptop = new Laptop('tensorbook', 16)
