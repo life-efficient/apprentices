@@ -1,0 +1,105 @@
+/* selector {
+    style-attribute: value;
+} */
+
+body {
+    margin: 0;
+    background: linear-gradient(yellow, black);
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+/* 
+div {
+
+    border-color: purple;
+    color: green;
+
+} */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px;
+    margin: 0px;
+    color: white;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.navbar > div {
+    border-radius: 5px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.searchbar > input {
+    width: 300px;
+}
+
+.searchbar > div {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.heading {
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #18181b;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.product > img {
+    height: 200px;
+}
+
+.title {
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+}
+
+.price {
+    font-size: 20px;
+}
+
+.add {
+    background-color: yellow;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.add:hover {
+    color: black;
+    background-color: white;
+    transform: scale(1.1);
+}

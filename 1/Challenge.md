@@ -1,6 +1,6 @@
-# Build a static landing page for an online store
+# Challenge: Build a static landing page for an online store
 
-Do not worry about the functionality of any of these components, the point of this chapter is to 
+Do not worry about the functionality of any of these components, the point of this chapter is to get comfortable with content and styling of webpages.
 
 If you don't get something follow these steps:
 1. Google it
