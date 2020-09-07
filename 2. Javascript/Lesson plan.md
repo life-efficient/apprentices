@@ -5,9 +5,6 @@
 - basic data types
 - functions (pre ES6)
 - classes
-- more fire ES6 syntax
-    - spread
-    - destructuring & rest
 
 ## Challenge - make a car class
 - class called Car
