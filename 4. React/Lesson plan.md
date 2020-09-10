@@ -21,7 +21,9 @@
 - Explain imports and exports
 
 ## Challenge: Make your own product component
-- copy the 
+- copy the product element that you made in vanilla HTML and JS into React
+
+## STATE
 
 ## Building the project
 - npm run build
