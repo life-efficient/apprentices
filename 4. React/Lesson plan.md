@@ -21,5 +21,7 @@
 - Explain imports and exports
 
 ## Challenge: Make your own product component
+- copy the 
 
 ## Building the project
+- npm run build
