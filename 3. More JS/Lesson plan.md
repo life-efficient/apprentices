@@ -1,4 +1,3 @@
-
 # More JS
 
 ## Intro to ES6
@@ -10,7 +9,6 @@
         - demo extending a list
         - demo updating an object
     - destructuring & rest
-        
 
 ## Challenge: ES6 migration
 - convert all of your old functions to arrow functions
@@ -19,7 +17,8 @@
 - simple example using setTimeout in a ```getProducts``` function
 
 ## Promises - another ES6 feature
-- write another function with a setTimeout in called ```getLatestOffers``` 
+- write another function with a setTimeout in called ```getSpecialOffers``` which takes in the list of products returned by ```getProducts```
+ 
 - explain the problem that these 2 function should be called immediately, but are currently having to wait
 - How can JS do multiple things at once? Promises
 - write a function that returns a promise
@@ -31,7 +30,7 @@
 
 ## Challenge: Write your own promise
 - write a function that returns a promise that randomly fails 50% of the time, after waiting for 3 seconds
-- 
+- it should resolve to ```true``` and reject to ```false```
 - if it fails, pop up an alert on the screen warning the user
 
 ## async/await 🔥
