@@ -40,9 +40,3 @@
 
 ## Challenge: Make your own product component
 - remake the product element that you made in vanilla HTML and JS as a standalone React component
-
-## State
-- make a click counter component
-
-## Building the project
-- npm run build
