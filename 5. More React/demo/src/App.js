@@ -1,9 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import HelloWorld from "./HelloWorld"
+import Product, { num } from "./Product"
+
+const products = [
+  {
+    title: 'phone',
+    price: 10,
+  },
+  {
+    title: 'headphone',
+    price: 100
+  }
+]
 
 function App() {
+
+  const [deal, setDeal] = useState(false)
+
+  const toggleDeal = () => {
+    console.log('toggling deal')
+    setDeal(!deal)
+  }
+  
   return (
     <div className="App">
       <header className="App-header">
@@ -21,6 +41,10 @@ function App() {
           Learn React
         </a>
         <HelloWorld name='harry' surname='berg'/>
+        {products.map(
+          p => <Product {...p} deal={deal}/>
+        )}
+        <button onClick={toggleDeal}>toggle deal</button>
       </header>
     </div>
   );
