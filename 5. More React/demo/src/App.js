@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import HelloWorld from "./HelloWorld"
@@ -15,7 +15,7 @@ const products = [
   }
 ]
 
-function App() {
+const  App = (props) => {
 
   const [deal, setDeal] = useState(false)
 
@@ -23,6 +23,39 @@ function App() {
     console.log('toggling deal')
     setDeal(!deal)
   }
+
+  const getBestOnClickHandler = () => {
+    const time = 2200
+    if (time > 1900) {
+      return () => {
+        
+        const func = () => {
+          console.log('hi')
+        }
+        console.log('goodnight')
+      }
+    }
+    else {
+      return () => {
+        console.log('good day')
+      }
+    }
+  }
+
+  const oc = () => {
+    console.log('i just ran!')
+    return 'hello'
+  }
+
+  const [arr, setArr] = useState([])
+
+  useEffect(() => {
+    console.log(arr)
+    console.log('yo')
+    return () => {
+      console.log('im unmounting')
+    }
+  }, [])
   
   return (
     <div className="App">
@@ -31,7 +64,15 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        hello
+        <button onClick={()=>{
+          setArr([...arr, Math.random()])
+          // console.log('new array:', arr)
+        }}>
+          Add to array
+        </button>
+        <button onClick={getBestOnClickHandler()}>
+          click me
+        </button>
         <a
           className="App-link"
           href="https://reactjs.org"
