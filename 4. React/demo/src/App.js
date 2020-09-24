@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import HelloWorld from "./HelloWorld"
 
+
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
+          <div style={{color: 'blue'}}>
+            hello
+          </div>
           Learn React
         </a>
         <HelloWorld name='harry' surname='berg'/>
